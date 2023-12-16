@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+        <title>Hotel Finder</title>
+        <link href="assets/fonts/mulish_regular.ttf" as="font" type="font/ttf" crossorigin>
+        <link href="assets/fonts/Mulish_SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+        <link href="assets/fonts/mulish_bold.ttf" as="font" type="font/ttf" crossorigin>
+        <link href="assets/fonts/Mulish_ExtraBold.ttf" as="font" type="font/ttf" crossorigin>
+        <link href="assets/fonts/mulish_regular.woff2" as="font" type="font/woff2" crossorigin>
+        <link href="assets/fonts/mulish_bold.woff2" as="font" type="font/woff2" crossorigin>
+        <link href="assets/fonts/Mulish_ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+        <!-- To add google icon, uncomment this -->
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/> -->
+
+        <!-- To activate fontawesome icon, uncomment any of the two icon below  -->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="description" content="Abu Horaira Tarif, Programmer, Software Engineer, Software Developer, Web Developer, Web Designer, Full Stack Developer, AI Expert, IT Expert, IT Consultant, SEO Expert, Frontend Expert, Backend Expert"/>
+
+        <!-- to add bootstrap, uncomment this and js file before script tag -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-content">
+                    
+                </div>
+            </div>
+        </header>
+
+        <section class="hotel-searchbox-section">
+            <div class="container">
+                <div class="hotel-searchbox-content">
+                    <h1 class="title text-center text-primary">Search by location to find hotel</h1>
+
+                    <form action="" method="get" id="myForm">
+                        <div class="form-group">
+                            <label for="location">Location:</label>
+                            <input class="form-control" type="text" id="location" placeholder="Benidorm, Valencia Community, Spain" required>
+                        </div>
+
+                        <div class="checkin-checkout">
+                            <div class="form-item1">
+                                <label  for="checkin_date">Checkin Date:</label>
+                                <input class="form-control" type="date" id="checkin_date">
+                            </div>     
+                            <div class="form-item2">
+                                <label for="checkout_date">Checkout Date:</label>
+                                <input class="form-control" type="date" id="checkout_date">
+                            </div>
+                        </div>
+                        
+                        <input type="submit" value="Submit" id="search-btn">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="search-result-section">
+            <div class="container">
+                <div id="result">
+                    
+                </div>
+            </div>
+
+        </section>
+        
+
+    
+
+
+        <!-- to apply bootstrap, uncomment this  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!-- or use this two links for bootstrap  -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+        <!-- to add swipe for mobile device, uncomment this -->
+        <!-- <script src="assets/js/swipedetect.js"></script> -->
+        
+        <script src="assets/js/myscript.js"></script>
+        <script type="module" src="assets/js/hotel-search.js"></script>
+
+    </body>
+
+</html>
